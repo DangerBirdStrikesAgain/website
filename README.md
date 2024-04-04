@@ -1,4 +1,4 @@
-This is the code for my website. 
+This is the code for my website:
 alexr-w.com
 
 Written with React

@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="Page">
         <img src={require("./media/myphoto.jpeg")} className="myPicture" alt = {"Me, Alex"} />
-        <section className = "Name">
+        <section className = "Title">
           Alex Riddell-Webster
         </section>
         <section className="Icons">
@@ -15,8 +15,8 @@ export default function Home() {
 
         </section>
         <section className="Text">
-          I'm a Computer Scientist, rower, keen hiker, birdwatcher, and coffee enthusiast. <br></br>
-          Have a look around :) <br></br><br></br>
+          I'm a Computer Scientist, vulnerability researcher, rower, and coffee enthusiast. <br></br>
+          Have a look around :)
         </section>
     </div>
   );

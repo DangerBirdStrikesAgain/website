@@ -3,7 +3,7 @@ import styled from "styled-components";
  
 export const Nav = styled.nav`
   background: #FFFFFF;
-  height: 30px;
+  height: 6vmin;
   display: flex;
   border-bottom: 1px solid #d3d3d3;
 `;
@@ -15,19 +15,15 @@ export const NavLink = styled(Link)`
   text-decoration: none;
   padding: 0 1rem;
   height: 100%;
+  font-family: source-code-pro, Menlo, Monaco,
+    monospace;
+  font-size: 3vmin;
+  
 `;
- 
  
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
   margin-right: -24px;
-  /* Second Nav */
-  /* margin-right: 24px; */
-  /* Third Nav */
-  /* width: 100vw;
-white-space: nowrap; */
-  @media screen and (max-width: 768px) {
-    display: none;
   }
 `;
